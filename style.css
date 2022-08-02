@@ -342,6 +342,10 @@ main {
       border-radius: 50%;
 }
 
+.join-m .fa-greater-than {
+      filter: invert(100%);
+}
+
 /*para*/
 
 .simple-para {
