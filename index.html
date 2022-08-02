@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    section { font-size: 11px; text-align: center; }
+    section a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="bg1"></div>
+  <div class="bg2"></div>
+  <main>
+    <div class="wrapper">
+      <div class="phone-box">
+        <div class="in-box">
+          <div class="sam-g">
+            <div class="g-white"></div>
+
+            <div class="samu-box">
+              <div class="sam-box">
+                <i class="fa-solid fa-greater-than" style="filter: invert(100%); transform: rotate(180deg); font-weight: bolder;"></i>
+                
+                <img src="./images/avatar.jpg" alt="avatar">
+  
+                <div class="sam-para">
+                  <h1>Samuel Green</h1>
+                  <p>Available to Walk</p>
+                </div>
+              </div>
+
+              <i class="fa-solid fa-ellipsis-vertical"></i>
+            </div>
+
+            
+          </div>
+
+          <div class="phone-para">
+            <p class="m-para">
+              That sounds great. I’d be <br> happy with that.
+            </p>
+
+            <p class="m-para">
+              Could you send over some pictures of your dog, please?
+            </p>
+
+            <div class="ans-para">
+              <div class="image">
+                <img src="./images/dog-image-1.jpg" alt="dog">
+                <img src="./images/dog-image-2.jpg" alt="dog">
+                <img src="./images/dog-image-3.jpg" alt="dog">
+              </div>
+
+              <p class="n-para">
+                Here are a few pictures. She’s a happy girl!
+              </p>
+
+              <p class="n-para n2">
+                Can you make it?
+              </p>
+            </div>
+
+            <p class="m-para m3">
+              She looks so happy! The time we discussed works. How long shall I take her out for?
+            </p>
+
+            <div class="checkbox">
+              <div class="radio1">
+                <div class="circle" onclick="bos1()">
+                  <div class="ciron"></div>
+                </div>
+                <p>
+                  30 minute walk
+                </p>
+
+                <span>
+                  $29
+                </span>
+              </div>
+              <div class="radio1">
+                <div class="circle" onclick="bos2()">
+                  <div class="ciron"></div>
+                </div>                
+                <p>
+                  1 hour walk
+                </p>
+
+                <span>
+                  $49
+                </span>
+              </div>
+            </div>
+
+            <!-- <form id="for" name="dl">
+              <input type="text" name="t" disabled class="n-para-art">
+            </form>
+
+            <form name="d2" id="for4">
+              <input type="text" name="t4" value="Please, right is wrong" disabled class="m-para-art">
+            </form>
+
+            <form id="for2" name="d">
+              <input type="text" name="t2" disabled class="n-para-art">
+            </form>
+
+            <form name="d1" id="for3">
+              <input type="text" name="t3" value="Welcome to my Friend!" disabled class="m-para-art">
+            </form> -->
+
+            <form name="dls" id="for5">
+              <input type="text" name="t5" disabled class="n-para-art">
+            </form>
+
+            <form name="dlsans" id="for6">
+              <input type="text" name="t6" value="Hello Dier" disabled class="m-para-art">
+            </form>
+            
+          </div>
+
+          <form id="for1" name="f">
+            <input type="text" name="t1" placeholder="Type a message…" maxlength="100">
+
+            <button class="join-m" onclick="track(); return false;">
+              <i class="fa-solid fa-greater-than" style="filter: invert(100%);"></i>
+            </button>
+          </form>
+
+        </div>
+      </div>
+
+      <div class="simple-para">
+        <h1>
+          Simple booking
+        </h1>
+
+        <p>
+          Stay in touch with our dog walkers through the chat interface. This makes it easy to 
+          discuss arrangements and make bookings. Once the walk has been completed you can rate 
+          your walker and book again all through the chat.
+        </p>
+      </div>
+    </div>
+
+  </main>
+  
+  <section>
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Umarov Axatmirzo Developer</a>.
+  </section>
+
+  <script src="./script.js"></script>
+</body>
+</html>
